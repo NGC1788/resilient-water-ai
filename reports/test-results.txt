@@ -1,0 +1,14 @@
+2026-10-19 Asia/Seoul
+Python 3.12 / scipy 1.18.1 (HiGHS MILP) / streamlit 1.66.0
+Command: python run.py --test
+Result: 20 passed in 19.72s
+Launch smoke test (python run.py): HTTP health 200 ok; HTTP app 200.
+
+Includes all nine Korean UI screens with a real design solve;
+mass balance, candidate gating, budget, raw/potable separation,
+storage bounds, treatment capacity, extreme essential shortfall,
+counterfactual reoptimization, reproducibility, changed scenarios,
+export integrity, and a baseline that excludes even free new assets.
+
+No hydraulic pressure validation performed.
+See preparedness-plan.json for computed results and input/code hashes.
