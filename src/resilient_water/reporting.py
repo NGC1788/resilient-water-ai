@@ -32,7 +32,7 @@ def comparison_row(p):
 def build_preparedness_plan(network,scenarios,budget):
     alternatives=design_alternatives(network,scenarios,budget)
     if not alternatives: raise RuntimeError("No feasible design")
-    best=alternatives[0]; baseline=optimize_preparedness_design(network,network["candidates"],scenarios,0)
+    best=alternatives[0]; baseline=optimize_preparedness_design(network,network["candidates"],scenarios,0,fixed=[])
     for p in alternatives:
         reduction=baseline["worst_essential_m3_day"]-p["worst_essential_m3_day"]
         p["essential_reduction_vs_baseline"]=reduction
