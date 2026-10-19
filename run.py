@@ -20,5 +20,5 @@ if __name__=="__main__":
         raise SystemExit(subprocess.call([sys.executable,"-m","pytest","-q"],cwd=root))
     else:
         from streamlit.web import cli
-        sys.argv=["streamlit","run",str(root/"app.py"),"--server.address=127.0.0.1"]
+        sys.argv=["streamlit","run",str(root/"app.py"),"--server.address=127.0.0.1","--server.headless=true","--browser.gatherUsageStats=false","--global.developmentMode=false"]
         raise SystemExit(cli.main())
