@@ -11,7 +11,7 @@
         "capacity": 70,
         "layer": "potable_transfer",
         "water_type": "potable",
-        "cost_opex_per_m3": 0.04,
+        "cost_opex_per_m3": 40.0,
         "existing": false,
         "capex_estimate": 400000000,
         "asset_type": "new_interconnection",
@@ -33,7 +33,7 @@
         "design_status": "PRELIMINARY_CANDIDATE",
         "construction_constraints": "노선·지형·시공성 미조사",
         "legal_constraints": "인허가·수리권·환경 검토 전",
-        "opex_estimate": 2.8000000000000003,
+        "opex_estimate": 2800.0,
         "selected": false,
         "coordinate_status": "NO_REAL_GIS"
       }
@@ -48,7 +48,7 @@
         "capacity": 65,
         "layer": "potable_transfer",
         "water_type": "potable",
-        "cost_opex_per_m3": 0.04,
+        "cost_opex_per_m3": 40.0,
         "existing": false,
         "capex_estimate": 300000000,
         "asset_type": "new_interconnection",
@@ -70,7 +70,7 @@
         "design_status": "PRELIMINARY_CANDIDATE",
         "construction_constraints": "노선·지형·시공성 미조사",
         "legal_constraints": "인허가·수리권·환경 검토 전",
-        "opex_estimate": 2.6,
+        "opex_estimate": 2600.0,
         "selected": true,
         "coordinate_status": "NO_REAL_GIS"
       }
@@ -85,7 +85,7 @@
         "capacity": 80,
         "layer": "potable_transfer",
         "water_type": "potable",
-        "cost_opex_per_m3": 0.04,
+        "cost_opex_per_m3": 40.0,
         "existing": false,
         "capex_estimate": 200000000,
         "asset_type": "upgrade_pipe",
@@ -107,7 +107,7 @@
         "design_status": "PRELIMINARY_CANDIDATE",
         "construction_constraints": "노선·지형·시공성 미조사",
         "legal_constraints": "인허가·수리권·환경 검토 전",
-        "opex_estimate": 3.2,
+        "opex_estimate": 3200.0,
         "selected": false,
         "coordinate_status": "NO_REAL_GIS"
       }
@@ -122,7 +122,7 @@
         "capacity": 60,
         "layer": "potable_transfer",
         "water_type": "potable",
-        "cost_opex_per_m3": 0.04,
+        "cost_opex_per_m3": 40.0,
         "existing": false,
         "capex_estimate": 300000000,
         "asset_type": "new_pipe",
@@ -144,7 +144,7 @@
         "design_status": "PRELIMINARY_CANDIDATE",
         "construction_constraints": "노선·지형·시공성 미조사",
         "legal_constraints": "인허가·수리권·환경 검토 전",
-        "opex_estimate": 2.4,
+        "opex_estimate": 2400.0,
         "selected": true,
         "coordinate_status": "NO_REAL_GIS"
       }
@@ -159,7 +159,7 @@
         "capacity": 70,
         "layer": "potable_transfer",
         "water_type": "potable",
-        "cost_opex_per_m3": 0.04,
+        "cost_opex_per_m3": 40.0,
         "existing": false,
         "capex_estimate": 200000000,
         "asset_type": "new_pipe",
@@ -181,7 +181,7 @@
         "design_status": "PRELIMINARY_CANDIDATE",
         "construction_constraints": "노선·지형·시공성 미조사",
         "legal_constraints": "인허가·수리권·환경 검토 전",
-        "opex_estimate": 2.8000000000000003,
+        "opex_estimate": 2800.0,
         "selected": true,
         "coordinate_status": "NO_REAL_GIS"
       }
@@ -196,7 +196,7 @@
         "capacity": 60,
         "layer": "raw_transfer",
         "water_type": "raw",
-        "cost_opex_per_m3": 0.04,
+        "cost_opex_per_m3": 40.0,
         "existing": false,
         "capex_estimate": 300000000,
         "asset_type": "new_interconnection",
@@ -218,7 +218,7 @@
         "design_status": "PRELIMINARY_CANDIDATE",
         "construction_constraints": "노선·지형·시공성 미조사",
         "legal_constraints": "인허가·수리권·환경 검토 전",
-        "opex_estimate": 2.4,
+        "opex_estimate": 2400.0,
         "selected": false,
         "coordinate_status": "NO_REAL_GIS"
       }

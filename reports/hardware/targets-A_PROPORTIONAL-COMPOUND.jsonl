@@ -1,0 +1,16 @@
+{"type": "manual_link", "seq": 0, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 0, "line": null, "edge_id": "A-B", "target_ml": 135.0, "requires_approval": true}
+{"type": "line_target", "seq": 1, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 0, "line": "R1", "edge_id": "A-R1", "target_ml": 165.0, "requires_approval": true}
+{"type": "line_target", "seq": 2, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 0, "line": "R3B", "edge_id": "B-H", "target_ml": 132.0, "requires_approval": true}
+{"type": "line_target", "seq": 3, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 0, "line": "R2", "edge_id": "B-R2", "target_ml": 143.0, "requires_approval": true}
+{"type": "line_target", "seq": 4, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 1, "line": "R1", "edge_id": "A-R1", "target_ml": 165.0, "requires_approval": true}
+{"type": "manual_link", "seq": 5, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 1, "line": null, "edge_id": "B-A", "target_ml": 165.0, "requires_approval": true}
+{"type": "line_target", "seq": 6, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 1, "line": "R3B", "edge_id": "B-H", "target_ml": 132.0, "requires_approval": true}
+{"type": "line_target", "seq": 7, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 1, "line": "R2", "edge_id": "B-R2", "target_ml": 143.0, "requires_approval": true}
+{"type": "line_target", "seq": 8, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 2, "line": "R1", "edge_id": "A-R1", "target_ml": 165.0, "requires_approval": true}
+{"type": "manual_link", "seq": 9, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 2, "line": null, "edge_id": "B-A", "target_ml": 165.0, "requires_approval": true}
+{"type": "line_target", "seq": 10, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 2, "line": "R3B", "edge_id": "B-H", "target_ml": 132.0, "requires_approval": true}
+{"type": "line_target", "seq": 11, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 2, "line": "R2", "edge_id": "B-R2", "target_ml": 143.0, "requires_approval": true}
+{"type": "line_target", "seq": 12, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 3, "line": "R1", "edge_id": "A-R1", "target_ml": 105.0, "requires_approval": true}
+{"type": "manual_link", "seq": 13, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 3, "line": null, "edge_id": "B-A", "target_ml": 105.0, "requires_approval": true}
+{"type": "line_target", "seq": 14, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 3, "line": "R3B", "edge_id": "B-H", "target_ml": 84.0, "requires_approval": true}
+{"type": "line_target", "seq": 15, "plan_id": "PLAN-20aa5d7c3619-A_PROPORTIONAL", "cycle": 3, "line": "R2", "edge_id": "B-R2", "target_ml": 91.0, "requires_approval": true}

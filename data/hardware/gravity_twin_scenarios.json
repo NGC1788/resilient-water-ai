@@ -1,0 +1,85 @@
+{
+  "development": [
+    {
+      "days": 4,
+      "source_factor": 1.0,
+      "demand_factor": 1.0,
+      "failed_edges": [],
+      "failed_sources": [],
+      "capacity_factors": {},
+      "version": "twin-v1",
+      "seed": 0,
+      "id": "NORMAL",
+      "trigger": "두 수원 가득"
+    },
+    {
+      "days": 4,
+      "source_factor": 1.0,
+      "demand_factor": 1.0,
+      "failed_edges": [],
+      "failed_sources": [],
+      "capacity_factors": {
+        "A-R1": 0.6,
+        "A-H": 0.6
+      },
+      "version": "twin-v1",
+      "seed": 0,
+      "id": "DROUGHT",
+      "trigger": "수원 A를 1/3만 채움(수위 낮아 A 라인 유량 0.6배 가정)",
+      "initial_storage": {
+        "A": 500
+      }
+    },
+    {
+      "days": 4,
+      "source_factor": 1.0,
+      "demand_factor": 1.0,
+      "failed_edges": [
+        "A-H"
+      ],
+      "failed_sources": [],
+      "capacity_factors": {},
+      "version": "twin-v1",
+      "seed": 0,
+      "id": "PIPE_BREAK",
+      "trigger": "집게로 A→병원 호스 차단"
+    },
+    {
+      "days": 4,
+      "source_factor": 1.0,
+      "demand_factor": 1.1,
+      "failed_edges": [
+        "A-H"
+      ],
+      "failed_sources": [],
+      "capacity_factors": {
+        "A-R1": 0.6
+      },
+      "version": "twin-v1",
+      "seed": 0,
+      "id": "COMPOUND",
+      "trigger": "가뭄 + A→병원 차단",
+      "initial_storage": {
+        "A": 500
+      }
+    }
+  ],
+  "held_out": [
+    {
+      "days": 4,
+      "source_factor": 1.0,
+      "demand_factor": 1.0,
+      "failed_edges": [
+        "A-R1",
+        "A-H",
+        "A-B"
+      ],
+      "failed_sources": [],
+      "capacity_factors": {},
+      "version": "twin-v1",
+      "seed": 0,
+      "id": "SUPPLY_STOP_A",
+      "trigger": "수원 A 호스 전부 차단(원래 '정전' 시나리오 대체)"
+    }
+  ]
+}

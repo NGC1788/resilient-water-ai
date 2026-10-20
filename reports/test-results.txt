@@ -1,14 +1,14 @@
-2026-10-19 Asia/Seoul
-Python 3.12 / scipy 1.18.1 (HiGHS MILP) / streamlit 1.66.0
+2026-10-20 Asia/Seoul
+Python 3.12 / scipy 1.18.1 (HiGHS MILP) / streamlit 1.66.0 / macOS arm64
 Command: python run.py --test
-Result: 20 passed in 19.72s
+Result: 44 passed
 Launch smoke test (python run.py): HTTP health 200 ok; HTTP app 200.
 
-Includes all nine Korean UI screens with a real design solve;
-mass balance, candidate gating, budget, raw/potable separation,
-storage bounds, treatment capacity, extreme essential shortfall,
-counterfactual reoptimization, reproducibility, changed scenarios,
-export integrity, and a baseline that excludes even free new assets.
+v0.2 regressions: 1/7/14/30-day horizons solve; NORMAL has zero shortfall;
+unused storage kept; non-anticipative prep days; worst regional shortfall
+ratio (equity); dominated designs excluded; A/B/C policy comparison with a
+held-out scenario; hardware twin network, line targets and measurement
+comparison; all 11 UI screens on both datasets with a real design solve.
 
 No hydraulic pressure validation performed.
-See preparedness-plan.json for computed results and input/code hashes.
+See preparedness-plan.json and hardware/twin-plan.json for computed results.

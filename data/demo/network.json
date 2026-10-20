@@ -1,5 +1,11 @@
 {
-  "version": "synthetic-v1",
+  "version": "synthetic-v2",
+  "title": "가상 3권역 논리망 · 실제 지리·시공 노선 아님",
+  "default_prep_days": 1,
+  "units": {
+    "volume": "m³",
+    "period": "일"
+  },
   "nodes": [
     {
       "id": "R1S",
@@ -12,14 +18,14 @@
       "y": 0,
       "crs": "LOCAL_SYNTHETIC",
       "elevation_m": 20,
-      "source_yield_m3_day": 170,
+      "source_yield_m3_day": 180,
       "treatment_capacity_m3_day": 0,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R1T",
@@ -33,13 +39,13 @@
       "crs": "LOCAL_SYNTHETIC",
       "elevation_m": 20,
       "source_yield_m3_day": 0,
-      "treatment_capacity_m3_day": 160,
+      "treatment_capacity_m3_day": 170,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R1P",
@@ -59,7 +65,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R1B",
@@ -76,10 +82,10 @@
       "treatment_capacity_m3_day": 0,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
-      "storage_m3": 60,
+      "storage_m3": 50,
       "storage_min_m3": 15,
-      "storage_max_m3": 100,
-      "data_source_id": "synthetic-v1"
+      "storage_max_m3": 150,
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R1D1",
@@ -99,7 +105,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R1D2",
@@ -119,7 +125,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R2S",
@@ -132,14 +138,14 @@
       "y": 3,
       "crs": "LOCAL_SYNTHETIC",
       "elevation_m": 30,
-      "source_yield_m3_day": 100,
+      "source_yield_m3_day": 150,
       "treatment_capacity_m3_day": 0,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R2T",
@@ -153,13 +159,13 @@
       "crs": "LOCAL_SYNTHETIC",
       "elevation_m": 30,
       "source_yield_m3_day": 0,
-      "treatment_capacity_m3_day": 100,
+      "treatment_capacity_m3_day": 150,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R2P",
@@ -179,7 +185,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R2B",
@@ -196,10 +202,10 @@
       "treatment_capacity_m3_day": 0,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
-      "storage_m3": 60,
+      "storage_m3": 50,
       "storage_min_m3": 15,
-      "storage_max_m3": 100,
-      "data_source_id": "synthetic-v1"
+      "storage_max_m3": 150,
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R2D1",
@@ -219,7 +225,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R2D2",
@@ -239,7 +245,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R3S",
@@ -252,14 +258,14 @@
       "y": 6,
       "crs": "LOCAL_SYNTHETIC",
       "elevation_m": 40,
-      "source_yield_m3_day": 140,
+      "source_yield_m3_day": 170,
       "treatment_capacity_m3_day": 0,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R3T",
@@ -273,13 +279,13 @@
       "crs": "LOCAL_SYNTHETIC",
       "elevation_m": 40,
       "source_yield_m3_day": 0,
-      "treatment_capacity_m3_day": 140,
+      "treatment_capacity_m3_day": 160,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R3P",
@@ -299,7 +305,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R3B",
@@ -316,10 +322,10 @@
       "treatment_capacity_m3_day": 0,
       "demand_m3_day": 0,
       "essential_demand_m3_day": 0,
-      "storage_m3": 60,
+      "storage_m3": 50,
       "storage_min_m3": 15,
-      "storage_max_m3": 100,
-      "data_source_id": "synthetic-v1"
+      "storage_max_m3": 150,
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R3D1",
@@ -339,7 +345,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     },
     {
       "id": "R3D2",
@@ -359,7 +365,7 @@
       "storage_m3": 0,
       "storage_min_m3": 0,
       "storage_max_m3": 0,
-      "data_source_id": "synthetic-v1"
+      "data_source_id": "synthetic-v2"
     }
   ],
   "edges": [
@@ -370,27 +376,27 @@
       "capacity": 200,
       "layer": "raw_transfer",
       "water_type": "raw",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
       "id": "R1-process",
       "from_node": "R1T",
       "to_node": "R1P",
-      "capacity": 160,
+      "capacity": 170,
       "layer": "treatment",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
       "id": "R1-trunk",
       "from_node": "R1P",
       "to_node": "R1B",
-      "capacity": 145,
+      "capacity": 165,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -400,7 +406,7 @@
       "capacity": 90,
       "layer": "distribution",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -410,7 +416,7 @@
       "capacity": 70,
       "layer": "distribution",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -420,27 +426,27 @@
       "capacity": 200,
       "layer": "raw_transfer",
       "water_type": "raw",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
       "id": "R2-process",
       "from_node": "R2T",
       "to_node": "R2P",
-      "capacity": 100,
+      "capacity": 150,
       "layer": "treatment",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
       "id": "R2-trunk",
       "from_node": "R2P",
       "to_node": "R2B",
-      "capacity": 95,
+      "capacity": 150,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -450,7 +456,7 @@
       "capacity": 90,
       "layer": "distribution",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -460,7 +466,7 @@
       "capacity": 70,
       "layer": "distribution",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -470,27 +476,27 @@
       "capacity": 200,
       "layer": "raw_transfer",
       "water_type": "raw",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
       "id": "R3-process",
       "from_node": "R3T",
       "to_node": "R3P",
-      "capacity": 140,
+      "capacity": 160,
       "layer": "treatment",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
       "id": "R3-trunk",
       "from_node": "R3P",
       "to_node": "R3B",
-      "capacity": 125,
+      "capacity": 160,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -500,7 +506,7 @@
       "capacity": 90,
       "layer": "distribution",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     },
     {
@@ -510,7 +516,7 @@
       "capacity": 70,
       "layer": "distribution",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.02,
+      "cost_opex_per_m3": 20.0,
       "existing": true
     }
   ],
@@ -522,7 +528,7 @@
       "capacity": 70,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.04,
+      "cost_opex_per_m3": 40.0,
       "existing": false,
       "capex_estimate": 400000000,
       "asset_type": "new_interconnection",
@@ -544,7 +550,7 @@
       "design_status": "PRELIMINARY_CANDIDATE",
       "construction_constraints": "노선·지형·시공성 미조사",
       "legal_constraints": "인허가·수리권·환경 검토 전",
-      "opex_estimate": 2.8000000000000003
+      "opex_estimate": 2800.0
     },
     {
       "id": "C2",
@@ -553,7 +559,7 @@
       "capacity": 65,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.04,
+      "cost_opex_per_m3": 40.0,
       "existing": false,
       "capex_estimate": 300000000,
       "asset_type": "new_interconnection",
@@ -575,7 +581,7 @@
       "design_status": "PRELIMINARY_CANDIDATE",
       "construction_constraints": "노선·지형·시공성 미조사",
       "legal_constraints": "인허가·수리권·환경 검토 전",
-      "opex_estimate": 2.6
+      "opex_estimate": 2600.0
     },
     {
       "id": "C3",
@@ -584,7 +590,7 @@
       "capacity": 80,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.04,
+      "cost_opex_per_m3": 40.0,
       "existing": false,
       "capex_estimate": 200000000,
       "asset_type": "upgrade_pipe",
@@ -606,7 +612,7 @@
       "design_status": "PRELIMINARY_CANDIDATE",
       "construction_constraints": "노선·지형·시공성 미조사",
       "legal_constraints": "인허가·수리권·환경 검토 전",
-      "opex_estimate": 3.2
+      "opex_estimate": 3200.0
     },
     {
       "id": "C4",
@@ -615,7 +621,7 @@
       "capacity": 60,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.04,
+      "cost_opex_per_m3": 40.0,
       "existing": false,
       "capex_estimate": 300000000,
       "asset_type": "new_pipe",
@@ -637,7 +643,7 @@
       "design_status": "PRELIMINARY_CANDIDATE",
       "construction_constraints": "노선·지형·시공성 미조사",
       "legal_constraints": "인허가·수리권·환경 검토 전",
-      "opex_estimate": 2.4
+      "opex_estimate": 2400.0
     },
     {
       "id": "C5",
@@ -646,7 +652,7 @@
       "capacity": 70,
       "layer": "potable_transfer",
       "water_type": "potable",
-      "cost_opex_per_m3": 0.04,
+      "cost_opex_per_m3": 40.0,
       "existing": false,
       "capex_estimate": 200000000,
       "asset_type": "new_pipe",
@@ -668,7 +674,7 @@
       "design_status": "PRELIMINARY_CANDIDATE",
       "construction_constraints": "노선·지형·시공성 미조사",
       "legal_constraints": "인허가·수리권·환경 검토 전",
-      "opex_estimate": 2.8000000000000003
+      "opex_estimate": 2800.0
     },
     {
       "id": "C6",
@@ -677,7 +683,7 @@
       "capacity": 60,
       "layer": "raw_transfer",
       "water_type": "raw",
-      "cost_opex_per_m3": 0.04,
+      "cost_opex_per_m3": 40.0,
       "existing": false,
       "capex_estimate": 300000000,
       "asset_type": "new_interconnection",
@@ -699,16 +705,17 @@
       "design_status": "PRELIMINARY_CANDIDATE",
       "construction_constraints": "노선·지형·시공성 미조사",
       "legal_constraints": "인허가·수리권·환경 검토 전",
-      "opex_estimate": 2.4
+      "opex_estimate": 2400.0
     }
   ],
   "coordinate_status": "SYNTHETIC_LOGICAL_ONLY",
   "currency": "KRW",
   "catalog": {
-    "dataset_id": "synthetic-v1",
+    "dataset_id": "synthetic-v2",
     "agency": "Synthetic demo",
     "license": "CC0-1.0 synthetic inputs",
     "quality": "SYNTHETIC",
-    "lineage": "Deterministic generator; not observations"
+    "lineage": "Deterministic generator; not observations",
+    "opex_basis": "SYNTHETIC: 20원/m³ 기존, 40원/m³ 신규 (가상 운영비)"
   }
 }

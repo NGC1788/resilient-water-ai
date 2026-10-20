@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "resilient-water-ai"
-version = "0.1.0"
-description = "Synthetic multi-scenario water preparedness network design"
+version = "0.2.0"
+description = "Robust multi-scenario water preparedness design, allocation policy comparison and tabletop hardware twin"
 requires-python = ">=3.12"
-dependencies = ["scipy>=1.12,<2", "pandas>=2,<4", "streamlit>=1.40,<2", "plotly>=5,<8"]
+dependencies = ["scipy>=1.12,<2", "pandas>=2,<4", "streamlit>=1.66,<2", "plotly>=5,<8"]
 
 [project.optional-dependencies]
 test = ["pytest>=8,<10"]

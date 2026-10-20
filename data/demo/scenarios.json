@@ -6,7 +6,8 @@
     "demand_factor": 1.0,
     "failed_edges": [],
     "failed_sources": [],
-    "version": "stress-v1",
+    "capacity_factors": {},
+    "version": "stress-v2",
     "seed": 0,
     "trigger": "정상 준비 운영"
   },
@@ -17,7 +18,8 @@
     "demand_factor": 1.0,
     "failed_edges": [],
     "failed_sources": [],
-    "version": "stress-v1",
+    "capacity_factors": {},
+    "version": "stress-v2",
     "seed": 0,
     "trigger": "유입량 감소 확인"
   },
@@ -30,7 +32,8 @@
       "R2-trunk"
     ],
     "failed_sources": [],
-    "version": "stress-v1",
+    "capacity_factors": {},
+    "version": "stress-v2",
     "seed": 0,
     "trigger": "R2 송수관 파손 확인"
   },
@@ -44,7 +47,8 @@
       "R3-trunk"
     ],
     "failed_sources": [],
-    "version": "stress-v1",
+    "capacity_factors": {},
+    "version": "stress-v2",
     "seed": 0,
     "trigger": "가뭄·폭염·복수 관로 파손 확인"
   }

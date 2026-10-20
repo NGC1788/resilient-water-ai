@@ -1,4 +1,4 @@
-# P0 인수 기준·검증
+# 인수 기준·검증 (v0.2)
 
 실행: `python run.py --test`. 계산 재생성: `python run.py --report`.
 
@@ -20,5 +20,13 @@
 |수리 검증 성공 오표시 금지|GRAPH_FEASIBLE / NOT_VALIDATED 검사|
 |시나리오 변경 재계산·seed 재현|입력 해시·성능 변화 및 재현 검사|
 |미래 데이터 누출|학습 예측 비적용; 가정만 사용하는 결정적 시나리오|
+|긴 분석 기간(1·7·14·30일) 계산 성공|상대 허용오차, test_long_horizons_solve|
+|정상 시나리오 부족 0, 남는 저장량 보존|합성 데이터 v2·저장량 단계, test_normal_scenario_has_no_shortfall·test_unused_storage_is_kept|
+|비예견성(재난 전 운영 시나리오 공통)|비예견성 행·gap 검사, test_prep_days_are_non_anticipative…|
+|형평성|최악 지역 부족률 단계, test_equity_stage…|
+|열등안 제외|test_dominated_superset_is_not_an_alternative|
+|비례·단일예측·강건 정책 비교, held-out 평가|tests/test_policies.py|
+|하드웨어 축소모형 망·목표량·측정 비교|tests/test_hardware.py|
+|11개 화면, 두 데이터셋에서 설계 실행|tests/test_ui.py|
 
 수리 압력·현장 건설 타당성은 검증하지 않았다. 부족을 허용하는 네트워크 물량 해의 GRAPH_FEASIBLE은 필수 수요의 완전 충족을 의미하지 않는다. 부족량을 별도 수치로 공개한다. 솔버 실패/시간초과는 성공 결과로 변환하지 않는다.
